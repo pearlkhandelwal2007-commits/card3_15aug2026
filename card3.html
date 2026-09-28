@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>HW Card</title>
+
+
+   <style>
+
+
+*{
+         margin: 0;
+         padding: 0;
+         box-sizing: border-box;
+      }
+
+
+      .container{
+         width: 100vw;
+         height: 90vh;
+         min-height: 700px;  
+    background: linear-gradient(
+    to bottom,
+    #4b0d9f 0%,
+    #6e33c5 35%,
+    #8f63d6 70%,
+    #d3cae8 100%
+);
+         display: flex;
+         justify-content: center;
+         flex-direction: row;;
+         align-items: center;
+      }
+
+
+      .card{
+         width: 800px;
+         height: 440px;
+         background-color: purple;
+         display: flex;
+         
+         justify-content: space-between;
+         flex-direction: row;
+         padding-left: 40px;
+         gap: 25px;
+      }
+
+
+
+
+      #leftBox{
+         width: 50%;
+         padding-right: 30px;
+         display: flex;
+         justify-content: space-evenly;
+         gap: 0;
+         color: white;
+         flex-direction: column;
+         height: 100%;
+         
+         
+      }
+
+
+      #para{
+         display: flex;
+         flex-direction: column;
+         gap: 25px;
+         width: 90%;
+    line-height: 1.7;
+      }
+
+
+      #para h2{
+         justify-content: space-around;
+         display: flex;
+         
+         
+         line-height: 1.2;
+      }
+      #para p{
+         margin-bottom: 15px;
+         margin-top: 23px;
+       /*  color: white;
+       gap: 20px;
+       */
+         line-height: 1.5;
+
+
+      }
+
+
+      .imgBox img{
+         height: 440px;
+         width: 370px;
+         
+      }
+
+
+      .statBox{
+         display: flex;
+         justify-content: space-between;
+         margin-top: 10px;
+    margin-bottom: 20px;
+      }
+
+
+      .box1a{
+         gap: 1px;
+         font-size: 30px;
+         display: flex;
+         flex-direction: column;
+      }
+      .box1b{
+         font-size: 30px;
+
+
+      }
+      .box1c{
+         font-size: 15px;
+      }
+
+
+      .box2a{
+         gap: 1px;
+         font-size: 30px;
+         display: flex;
+         flex-direction: column;
+      }
+
+
+      .box2b{
+         font-size: 30px;
+
+
+      }
+      .box2c{
+         font-size: 15px;
+      }
+
+
+      .box3a{
+         gap: 1px;
+         font-size: 30px;
+         display: flex;
+         flex-direction: column;
+      }
+
+
+      .box3b{
+         font-size: 30px;
+
+
+      }
+      .box3c{
+         font-size: 15px;
+      }
+
+   </style>
+
+</head>
+
+
+<body>
+   
+   <div class="container">
+      <div class="card">
+         <div id="leftBox">
+            <div id="para">
+
+
+               <h2>
+                  Get insights that help your business grow
+               </h2>
+
+
+               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore possimus iure
+                  necessitatibus vero ea, quidem itaque quo obcaecati odio temporibus .</p>
+
+
+            </div>
+
+
+            <div class="statBox">
+               <!--1st box-->
+               <div class="box1a">
+                  <div class="box1b">
+                     <p>10K+</p>
+                  </div>
+
+
+                  <div class="box1c">
+                     <p>Comments</p>
+                  </div>
+
+               </div>
+
+           <!--2nd box-->
+
+
+               <div class="box2a">
+                  <div class="box2b">
+                  <p>214</p>
+               </div>
+               <div class="box2c">
+                  <p>Paid Users</p>
+               </div>
+               </div>
+
+
+             <!--3rd box-->
+
+
+             <div class="box3a">
+                  <div class="box3b">
+                  <p>12M+</p>
+               </div>
+               <div class="box3c">
+                  <p>Views</p>
+               </div>
+               </div>
+            </div>
+         </div>
+
+         <div id="rightBox">
+
+            <div class="imgBox">
+                  <img src="icon.png" alt="icon">
+               </div>
+         </div>
+
+      </div>
+   </div>
+</body>
+</html>
